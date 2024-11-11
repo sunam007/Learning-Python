@@ -39,3 +39,15 @@ print("addition int+float:" , add)
 
 add2 = num_b + num_c # float + complex ; float is the narrower type; float will first converts to float
 print("addition float+complex:" , add2)
+
+# Division
+# In python v3 Division always returns float even if there is no remainder, division by zero will return
+# the % operator returns the remainder value; to get the quotient use double forward slash //
+
+division = 12/5 # 1.5
+remainder = 12%5 # 2
+quotient = 12//5 # 2
+
+print ("division >>" , division)
+print ("remainder >>" , remainder)
+print ("quotient >>" , quotient)
