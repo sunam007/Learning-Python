@@ -1,0 +1,2 @@
+- clone the repository
+- open with vscode or your code-editor
